@@ -8,6 +8,7 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 2.5em;
 }
 
 form {
@@ -15,4 +16,76 @@ form {
     width: 500px;
     text-align: center;
     padding: 30px;
+    height: 20vh;
+}
+
+#submit {
+    font-size: 1.5em;
+    padding: 3px;
+}
+
+#submit:hover {
+    background-color: grey;
+}
+
+#item-input {
+    font-size: 1.5em;
+    padding: 3px;
+}
+
+#container {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px;
+}
+
+.item-container {
+    width: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #9CCFF7;
+    margin: 5px;
+    padding: 3px;
+}
+
+.item {
+    flex: 1;
+    text-align: left;
+}
+
+.trash {
+    font-size: 1.5em;
+}
+.trash:hover {
+    background-color: grey;
+}
+.check {
+    font-size: 1.5em;
+}
+.check:hover {
+    background-color: green;
+}
+
+button {
+    border: none;
+}
+
+.fa-trash {
+    pointer-events: none;
+}
+
+.fa-check {
+    pointer-events: none;
+}
+
+.checked {
+    opacity: 0.5;
+    text-decoration: line-through;
 }
